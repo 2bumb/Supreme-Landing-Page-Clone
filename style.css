@@ -1,11 +1,10 @@
 .supreme img {
-    width: 200px; /* Set your desired width */
-    height: auto; /* Maintain aspect ratio */
-
+    width: 200px; 
+    height: auto; 
 }
 
 body{
-background-image: url('https://tinypic.host/image/FAaZa');
+ background-image: url('https://i.postimg.cc/L5gWtcqB/2020-FW-bridge.gif'); 
 background-size: cover;
 background-repeat: no-repeat;
  }
