@@ -1,0 +1,11 @@
+.supreme img {
+    width: 200px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+body{
+background-image: url('https://tinypic.host/image/FAaZa');
+background-size: cover;
+background-repeat: no-repeat;
+ }
