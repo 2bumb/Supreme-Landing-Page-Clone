@@ -4,7 +4,10 @@
 }
 
 body{
- background-image: url('https://i.postimg.cc/L5gWtcqB/2020-FW-bridge.gif'); 
-background-size: cover;
-background-repeat: no-repeat;
+  margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-image: url('https://i.postimg.cc/L5gWtcqB/2020-FW-bridge.gif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
  }
