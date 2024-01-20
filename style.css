@@ -12,4 +12,9 @@ body{
     background-repeat: no-repeat;
  }
 
-li{color: white;}
+li{color: white;
+  list-style: none;
+    padding-top: 10px;;
+    font-family: 'Courier New', Courier, monospace;
+  }
+    
