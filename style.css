@@ -11,11 +11,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
-}
-
-li{color: white;
-  list-style: none;
+}li
+    {color: white;
+    list-style: none;
     padding-top: 10px;;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
   }
     
