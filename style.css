@@ -17,6 +17,7 @@ li{
     padding-top: 10px;;
     font-family: 'Courier New', Courier, monospace;
     font-size: 11px;
+/*     center the menu */
   }
 .menu ul li:not(.supreme):hover{
     background-color:red;
@@ -24,7 +25,12 @@ li{
     display: inline-block;
 }
    li:not(.supreme){cursor: pointer;
-                   }
-  
+  }
+
+
+.meni ul li{
+
+    
+}
    
     
