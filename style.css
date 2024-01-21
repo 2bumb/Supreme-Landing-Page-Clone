@@ -21,7 +21,10 @@ li{
 .menu ul li:not(.supreme):hover{
     background-color:red;
     transition:transform 0.5s ease-in-out;
-    display: inline-block;}
+    display: inline-block;
+}
+   li:not(.supreme){cursor: pointer;
+                   }
   
    
     
