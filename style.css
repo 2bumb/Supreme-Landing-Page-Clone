@@ -34,5 +34,17 @@ li{
 /*     center the menu */
     
 }
+
+ @keyframes fadein {
+    from {
+      background-color: black;
+      opacity: 0;
+    }
+    to {
+      background-color: black; 
+      opacity: 1;
+    }
+  }
+
    
     
