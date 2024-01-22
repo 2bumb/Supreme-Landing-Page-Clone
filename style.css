@@ -10,6 +10,8 @@ body {
     background-image: url('https://i.postimg.cc/L5gWtcqB/2020-FW-bridge.gif'); 
     background-size: cover;
     background-repeat: no-repeat;
+    animation: fadein 5s;
+    
 }
 li{
     color: white;
