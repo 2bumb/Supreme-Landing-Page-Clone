@@ -48,6 +48,9 @@ li{
     height: auto; 
     border-radius: 5px;
 }
+.news-item {
+  text-indent: -80px;
+}
 
 
    
