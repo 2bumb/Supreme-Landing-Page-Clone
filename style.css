@@ -19,6 +19,9 @@ li{
     padding-top: 10px;;
     font-family: 'Courier New', Courier, monospace;
     font-size: 11px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
 
   }
 .menu ul li:not(.supreme):hover{
