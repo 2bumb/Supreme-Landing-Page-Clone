@@ -32,12 +32,6 @@ li{
    li:not(.supreme){cursor: pointer;
   }
 
-
-.meni ul li{
-/*     center the menu */
-    
-}
-
  @keyframes fadein {
     from {
       background-color: black;
