@@ -1,57 +1,134 @@
 .supreme img {
-    width: 180px; 
-    height: auto; 
+  width: 180px;
+  height: auto; 
 }
 
 body {
-    margin: 0;
-    padding: 0; 
-    background-attachment: fixed;
-    background-image: url('https://i.postimg.cc/L5gWtcqB/2020-FW-bridge.gif'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: fadein 5s;
-    
-}
-li{
-    color: white;
-    list-style: none;
-    padding-top: 10px;;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 11px;
- display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0; /* Resetting default margin */
+  padding: 0; /* Resetting default padding */
+  background-attachment: fixed;
+  /* background-image: url('https://i.postimg.cc/L5gWtcqB/2020-FW-bridge.gif');  */
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: fadein 7s;
+  overflow-y: hidden;
+  
 
-  }
+}
+
+li {
+color: white;
+list-style: none;
+padding-top: 10px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 11px;
+display: flex;
+align-items: center;
+justify-content: center; /* Align text to the left */
+
+}
+
 .menu ul li:not(.supreme):hover{
-    background-color:red;
-    transition:transform 0.5s ease-in-out;
-    display: inline-block;
-}
-   li:not(.supreme){cursor: pointer;
-  }
+  background-color:red;
+   transition:transform 0.5s ease-in-out;
+ }     
+ 
+ li:not(.supreme)
+ {cursor: pointer;}
 
- @keyframes fadein {
-    from {
-      background-color: black;
-      opacity: 0;
-    }
-    to {
-      background-color: black; 
-      opacity: 1;
-    }
-  }
-
-  .icons .social-icon img {
-    width: 15px; 
-    height: auto; 
-    border-radius: 5px;
+ .fade-in {
+  animation: fadein 100s;
 }
+
+@keyframes fadein {
+  from {
+    background-color: black;
+    opacity: 0;
+  }
+  to {
+    background-color: black; 
+    opacity: 1;
+  }
+}
+
+.icons .social-icon img {
+  width: 15px; 
+  height: auto; 
+  border-radius: 5px;
+  margin: 0 3px;
+
+}
+
+
+.icons {
+display: flex;
+justify-content: center; /* Center the icons horizontally */
+height: 100vh; /* Set the height of the container to 100% of the viewport height */
+margin-left: 210px;
+}
+
+
+.menu ul li {
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 11px;
+margin: 0;
+padding: 10px;
+
+}
+
+
+
+/* .icons .social-icon img[src*="weibo"] {
+width: 50px; 
+height: auto; 
+border-radius: 5px; 
+} */
+
+
+
 .news-item {
-  text-indent: -80px;
+text-indent:0px;
+}
+
+.preview-item
+{text-indent:131px;}
+
+.lookbook-item{text-indent:134px;}
+.mailing-item{text-indent:34px;}
+
+.shop-item{text-indent:-4px;}
+.random-item{text-indent:5px;}
+
+.menu ul li.preview-item,
+.menu ul li.lookbook-item {
+white-space: nowrap;
+}
+
+.footer-item{display: flex;
+justify-content: center;
+height: 100vh;
+flex-direction: row;
+
 }
 
 
-   
-    
+.menu {
+height: 100vh; /* Default height for the menu container */
+overflow-y: hidden; /* Hide vertical scrollbar by default */
+}
+
+/* Media query for zoomed screens */
+@media (min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3/2),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-device-pixel-ratio: 1) {
+.menu {
+  overflow-y: auto; /* Enable vertical scrolling for zoomed screens */
+  max-height: 110vh; /* Set a maximum height for the scroll bar */
+
+}
+}
+
+
