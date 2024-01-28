@@ -130,5 +130,17 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 
 }
 }
+.icons .social-icon img {
+  width: 15px;
+  height: auto;
+  border-radius: 5px;
+  margin: 0 3px;
+  transition: filter 0.3s ease-in-out; /* Added transition property for smooth effect */
+}
+
+.icons .social-icon:hover img {
+  filter: brightness(0) invert(1); /* Set filter properties to turn the icons white on hover */
+}
+
 
 
