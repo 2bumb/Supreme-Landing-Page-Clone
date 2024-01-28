@@ -13,3 +13,10 @@ function setRandomBackground() {
 
     document.body.style.backgroundImage = `url(${newImageUrl})`;
 }
+
+
+
+
+window.addEventListener('load', setRandomBackground);
+//
+
