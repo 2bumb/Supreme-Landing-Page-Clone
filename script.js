@@ -22,16 +22,18 @@ window.addEventListener('load', setRandomBackground);
 
 //
 
-
 document.addEventListener('DOMContentLoaded', function () {
 
     function updateDateTime() {
         var currentTime = new Date();
 
-        // Format date as MM/DD/YY     var date = (currentTime.getMonth() + 1) + '/' + currentTime.getDate() + '/' + (currentTime.getFullYear() % 100);
-       var hours = currentTime.getHours();
+    
+        var date = (currentTime.getMonth() + 1) + '/' + currentTime.getDate() + '/' + (currentTime.getFullYear() % 100);
+
+   
+        var hours = currentTime.getHours();
         var suffix = hours >= 12 ? 'am' : 'am';
-        hours = hours % 12 || 12; // Convert to 12-hour format
+        hours = hours % 12 || 12; 
         var minutes = currentTime.getMinutes();
         hours = (hours < 10 ? "0" : "") + hours;
         minutes = (minutes < 10 ? "0" : "") + minutes;
@@ -46,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     updateDateTime();
 });
+
 
 
 
