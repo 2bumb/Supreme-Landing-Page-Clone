@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var date = (currentTime.getMonth() + 1) + '/' + currentTime.getDate() + '/' + (currentTime.getFullYear() % 100);
 
    
-        var hours = currentTime.getHours();
+        var hours = currentTime.getHours()+3;
         var suffix = hours >= 12 ? 'am' : 'am';
         hours = hours % 12 || 12; 
         var minutes = currentTime.getMinutes();
