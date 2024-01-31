@@ -96,7 +96,8 @@ text-indent:0px;
 {text-indent:131px;}
 
 .lookbook-item{text-indent:134px;}
-.mailing-item{text-indent:34px;}
+.mailing-item{text-indent:34px;} 
+/* indents are the reason why my hover is too wide or too small */
 
 .shop-item{text-indent:-4px;}
 .random-item{text-indent:5px;}
