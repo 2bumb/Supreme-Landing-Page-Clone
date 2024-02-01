@@ -151,7 +151,35 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 .menu ul li.lookbook-item {
   margin-left: 136px; /* Adjust the margin as needed */
 }
+.menu ul li.lookbook-item {
+  margin-left: 136px; /* Adjust the margin as needed */
+}
 
+
+
+.menu ul li.shop-item {
+  margin-left: -5px; /* Adjust the margin as needed */
+}
+
+
+.menu ul li.random-item {
+  margin-left: 8px; /* Adjust the margin as needed */
+}
+
+
+.menu ul li.stores-item {
+  margin-left: 7px; /* Adjust the margin as needed */
+}
+
+
+.menu ul li.contact-item {
+  margin-left: 15px; /* Adjust the margin as needed */
+}
+
+
+.menu ul li.mailing-item {
+  margin-left: 50px; /* Adjust the margin as needed */
+}
 /* 
 
 
