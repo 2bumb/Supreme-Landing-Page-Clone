@@ -144,6 +144,14 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 }
 
 
+.menu ul li.preview-item {
+  margin-left: 131px; /* Adjust the margin as needed */
+}
+
+.menu ul li.lookbook-item {
+  margin-left: 136px; /* Adjust the margin as needed */
+}
+
 /* 
 
 
