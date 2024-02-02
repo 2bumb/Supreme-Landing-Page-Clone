@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
    
         var hours = currentTime.getHours()+3;
-        var suffix = hours >= 12 ? 'am' : 'am';
+       var suffix = hours >= 12 ? 'am' : 'pm';
         hours = hours % 12 || 12; 
         var minutes = currentTime.getMinutes();
         hours = (hours < 10 ? "0" : "") + hours;
