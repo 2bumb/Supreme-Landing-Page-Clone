@@ -185,6 +185,19 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 .footer-item ul.horizontal-list li {
   margin-right:-5px; /* Adjust the margin as needed */;
 }
+
+
+@media (max-width: 1468px) {
+  .menu ul li{
+    margin-left: 0;
+  }
+  .footer-item {
+    position: relative;
+    /* Remove fixed positioning when the screen width is less than or equal to 768px */
+
+
+  }
+}
 /* 
 
 
