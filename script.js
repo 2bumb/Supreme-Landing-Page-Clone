@@ -51,5 +51,45 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+///
 
+// document.addEventListener('DOMContentLoaded', function () {
+ 
+//     function updateDateTime() {
+//         var currentTime = new Date();
+
+    
+//         var month = (currentTime.getMonth() + 1);
+//         var day = currentTime.getDate();
+//         var year = currentTime.getFullYear();
+
+ 
+//         month = (month < 10 ? "0" : "") + month;
+//         day = (day < 10 ? "0" : "") + day;
+
+//         var date = month + '/' + day + '/' + year;
+
+
+//         var hours = currentTime.getUTCHours() - 5; 
+//         var suffix = hours >= 12 ? 'PM' : 'AM';
+//         hours = (hours + 12) % 12 || 12; 
+//         var minutes = currentTime.getMinutes();
+//         hours = (hours < 10 ? "0" : "") + hours;
+//         minutes = (minutes < 10 ? "0" : "") + minutes;
+//         var time = hours + ':' + minutes + ' ' + suffix;
+
+
+//         document.getElementById('span').innerHTML = date + ' ' + time + ' NYC';
+//     }
+
+
+//     setInterval(updateDateTime, 1000);
+
+
+//     updateDateTime();
+// });
+
+
+
+//
 
