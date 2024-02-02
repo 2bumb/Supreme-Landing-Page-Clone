@@ -180,6 +180,11 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 .menu ul li.mailing-item {
   margin-left: 50px; /* Adjust the margin as needed */
 }
+
+
+.footer-item ul.horizontal-list li {
+  margin-right:-5px; /* Adjust the margin as needed */;
+}
 /* 
 
 
