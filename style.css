@@ -198,6 +198,20 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 
   }
 }
+
+.footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align the footer to the bottom */
+  position: fixed; /* Fixed position so it stays visible during scrolling */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  width: 100%; /* Full width */
+  background-color: transparent; /* Set a background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  margin-left: 43px;
+  margin-bottom:5px;
+
+}
 /* 
 
 
