@@ -241,3 +241,10 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 }
 
 .icons{margin-right: -122px;}
+
+.menu ul li.icons-item {
+  margin-left: 50px; 
+}
+
+
+.footer-item{margin-left: 310px;}
