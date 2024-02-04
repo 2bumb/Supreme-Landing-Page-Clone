@@ -253,3 +253,8 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 .top{position: relative;
 top: 100px;
 margin-right: 55px;}
+
+.container > *:not(.footer-item) {
+  /* Styles for elements inside .container except .footer-item */
+  margin-bottom: 88px; /* Adjust as needed */
+}
