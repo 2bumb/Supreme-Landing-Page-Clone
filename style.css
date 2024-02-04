@@ -1,84 +1,95 @@
-.supreme img {
+/* .menu ul li.supreme img {
   width: 180px;
-  height: auto; 
+} */
+.top ul li.supreme img {
+    width: 180px;
+    padding-bottom: 15px;
+    margin-right: 25px;
 }
 
 body {
-  margin: 0;
-  padding: 0; 
-  background-attachment: fixed;
-
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: fadein 7s;
-  overflow-y: hidden;
-  
+    padding: 0;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fadein 7s;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 
 li {
-color: white;
-list-style: none;
-padding-top: 10px;
-font-family: 'Courier New', Courier, monospace;
-font-size: 11px;
-display: flex;
-align-items: center;
-justify-content: center; 
+    color: white;
+    list-style: none;
+    /* padding-top: 10px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.menu ul li:not(.supreme):hover{
-  background-color:red;
-   transition:transform 0.5s ease-in-out;
- }     
- 
- li:not(.supreme)
- {cursor: pointer;}
+.menu ul li:not(.supreme) a:hover {
+    background-color: red;
+    transition: transform 0.5s ease-in-out;
+}
 
- .fade-in {
-  animation: fadein 100s;
+.menu ul li:not(.supreme) a {
+    text-decoration: none;
+    /* Remove underline */
+    color: white;
+    /* Set font color to white */
+}
+
+.menu ul li:not(.supreme) a:hover {
+    background-color: red;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Your existing styles... */
+
+li:not(.supreme) {
+    cursor: pointer;
+}
+
+.fade-in {
+    animation: fadein 100s;
 }
 
 @keyframes fadein {
-  from {
-    background-color: black;
-    opacity: 0;
-  }
-  to {
-    background-color: black; 
-    opacity: 1;
-  }
+    from {
+        background-color: black;
+        opacity: 0;
+    }
+    to {
+        background-color: black;
+        opacity: 1;
+    }
 }
 
-.icons .social-icon img {
-  width: 15px; 
-  height: auto; 
+/* .icons .social-icon img {
+  width: 15px;
+  height: auto;
   border-radius: 5px;
   margin: 0 3px;
-
-}
-
+} */
 
 .icons {
-display: flex;
-justify-content: center; /* Center the icons horizontally */
-height: 100vh; /* Set the height of the container to 100% of the viewport height */
-margin-left: 210px;
+    display: flex;
+    justify-content: center;
+    /* Center the icons horizontally */
+    /* margin-left: 210px; */
 }
-
 
 .menu ul li {
-color: white;
-font-family: 'Courier New', Courier, monospace;
-font-size: 11px;
-margin: 0;
-padding: 10px;
-
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
 }
-
-
 
 /* .icons .social-icon img[src*="weibo"] {
 width: 50px; 
@@ -86,175 +97,227 @@ height: auto;
 border-radius: 5px; 
 } */
 
-
-
-/* .news-item {
-text-indent:0px;
+.news-item {
+    text-indent: 0px;
 }
 
-.preview-item
-{text-indent:131px;}
-
-.lookbook-item{text-indent:134px;}
-.mailing-item{text-indent:34px;} 
+.preview-item {
+    margin-left: 0px;
+}
 
 
-.shop-item{text-indent:-4px;}
-.random-item{text-indent:5px;} */
+.shop-item {
+    text-indent: 0px;
+}
+
+.random-item {
+    text-indent: 0px;
+}
 
 .menu ul li.preview-item,
 .menu ul li.lookbook-item {
-white-space: nowrap;
+    white-space: nowrap;
 }
 
-.footer-item{display: flex;
-justify-content: center;
-height: 100vh;
-flex-direction: row;
+.footer-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-item ul.horizontal-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
 }
 
-
-.menu {
-height: 100vh; /* Default height for the menu container */
-overflow-y: hidden; /* Hide vertical scrollbar by default */
-}
+/* .footer-item ul.horizontal-list li {
+  margin-right: 10px;
+  
+} */
 
 /* Media query for zoomed screens */
 @media (min--moz-device-pixel-ratio: 1.5),
 (-o-min-device-pixel-ratio: 3/2),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-device-pixel-ratio: 1) {
-.menu {
-  overflow-y: auto; /* Enable vertical scrolling for zoomed screens */
-  max-height: 110vh; /* Set a maximum height for the scroll bar */
+    .menu {
+        overflow-y: auto;
+        /* Enable vertical scrolling for zoomed screens */
+        max-height: 110vh;
+        /* Set a maximum height for the scroll bar */
+    }
+}
 
-}
-}
 .icons .social-icon img {
-  width: 15px;
-  height: auto;
-  border-radius: 5px;
-  margin: 0 3px;
-  transition: filter 0.3s ease-in-out; /* Added transition property for smooth effect */
+    width: 15px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 3px;
+    transition: filter 0.3s ease-in-out;
+    /* Added transition property for a smooth effect */
 }
 
 .icons .social-icon:hover img {
-  filter: brightness(0) invert(1); /* Set filter properties to turn the icons white on hover */
+    filter: brightness(0) invert(1);
+    /* Set filter properties to turn the icons white on hover */
 }
+#span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
 
+}
+/* .menu{margin-bottom: 2100px;} */
 
 .menu ul li.preview-item {
-  margin-left: 131px; /* Adjust the margin as needed */
+    margin-left: 131px;
+    /* Adjust the margin as needed */
 }
 
 .menu ul li.lookbook-item {
-  margin-left: 136px; /* Adjust the margin as needed */
-}
-.menu ul li.lookbook-item {
-  margin-left: 136px; /* Adjust the margin as needed */
+    margin-left: 136px;
+    /* Adjust the margin as needed */
 }
 
 
 
 .menu ul li.shop-item {
-  margin-left: -5px; /* Adjust the margin as needed */
+    margin-left: -5px;
+    /* Adjust the margin as needed */
 }
 
 
 .menu ul li.random-item {
-  margin-left: 8px; /* Adjust the margin as needed */
+    margin-left: 8px;
+    /* Adjust the margin as needed */
 }
 
 
 .menu ul li.stores-item {
-  margin-left: 7px; /* Adjust the margin as needed */
+    margin-left: 7px;
+    /* Adjust the margin as needed */
 }
 
 
 .menu ul li.contact-item {
-  margin-left: 15px; /* Adjust the margin as needed */
+    margin-left: 15px;
+    /* Adjust the margin as needed */
 }
 
 
 .menu ul li.mailing-item {
-  margin-left: 50px; /* Adjust the margin as needed */
+    margin-left: 50px;
+    /* Adjust the margin as needed */
+}
+
+.menu ul li.lookbook-item {
+    margin-left: 136px;
+    /* Adjust the margin as needed */
 }
 
 
-.footer-item ul.horizontal-list li {
-  margin-right:-5px; /* Adjust the margin as needed */;
+
+.menu ul li.shop-item {
+    margin-left: -5px;
+    /* Adjust the margin as needed */
+}
+
+
+.menu ul li.random-item {
+    margin-left: 8px;
+    /* Adjust the margin as needed */
+}
+
+
+.menu ul li.stores-item {
+    margin-left: 7px;
+    /* Adjust the margin as needed */
+}
+
+
+.menu ul li.contact-item {
+    margin-left: 15px;
+    /* Adjust the margin as needed */
+}
+
+
+.menu ul li.icons-item {
+    margin-left: 50px;
+}
+
+
+.footer-item {
+    margin-left: 310px;
+}
+
+.icons {
+    margin-right: -122px;
+}
+
+
+
+
+
+
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* Align the footer to the bottom */
+    position: fixed;
+    /* Fixed position so it stays visible during scrolling */
+    bottom: 0;
+    /* Stick to the bottom of the viewport */
+    width: 100%;
+    /* Full width */
+    background-color: transparent;
+    /* Set a background color as needed */
+    padding: 10px;
+    /* Add padding for better visibility */
+    margin-left: 43px;
+    margin-bottom: 5px;
+
 }
 
 
 @media (max-width: 1468px) {
-  .menu ul li{
-    margin-left: 0;
-  }
-  .footer-item {
+    .menu ul li {
+        margin-left: 0;
+    }
+    .footer-item {
+        position: relative;
+        /* Remove fixed positioning when the screen width is less than or equal to 768px */
+
+
+    }
+}
+
+.footer-item ul.horizontal-list li {
+    margin-right: -5px;
+    /* Adjust the margin as needed */
+}
+
+.menu {
+    margin-right: 111px;
+}
+
+.container>*:not(.footer-item) {
+    /* Styles for elements inside .container except .footer-item */
+    margin-bottom: 88px;
+    /* Adjust as needed */
+}
+
+
+.top {
     position: relative;
-    /* Remove fixed positioning when the screen width is less than or equal to 768px */
 
-
-  }
-}
-
-.footer-item {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; /* Align the footer to the bottom */
-  position: fixed; /* Fixed position so it stays visible during scrolling */
-  bottom: 0; /* Stick to the bottom of the viewport */
-  width: 100%; /* Full width */
-  background-color: transparent; /* Set a background color as needed */
-  padding: 10px; /* Add padding for better visibility */
-  margin-left: 43px;
-  margin-bottom:5px;
-
-}
-/* 
-
-
-
-*USEEE THIS FOR ICON CLASS*
-
-
-
-
-
-
-
-.social-icons {
-  display: grid;
-  font-size: 3rem;
-  grid-template-columns: repeat(5, 1fr);
-}
- */
-
-
-/* .footer-item {
-    position: relative;
-    top: 88px; /* Adjust the value as needed */
-}
- */
-.menu{margin-right: 111px;
-}
-
-.icons{margin-right: -122px;}
-
-.menu ul li.icons-item {
-  margin-left: 50px; 
-}
-
-
-.footer-item{margin-left: 310px;}
-
-
-.top{position: relative;
-top: 100px;
-margin-right: 55px;}
-
-.container > *:not(.footer-item) {
-  /* Styles for elements inside .container except .footer-item */
-  margin-bottom: 88px; /* Adjust as needed */
+    top: 100px;
+    margin-right: 55px;
 }
