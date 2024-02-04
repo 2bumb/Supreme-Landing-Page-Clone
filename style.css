@@ -248,3 +248,8 @@ overflow-y: hidden; /* Hide vertical scrollbar by default */
 
 
 .footer-item{margin-left: 310px;}
+
+
+.top{position: relative;
+top: 100px;
+margin-right: 55px;}
