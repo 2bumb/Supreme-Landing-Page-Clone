@@ -17,7 +17,7 @@ function setRandomBackground() {
 window.addEventListener('load', setRandomBackground);
 //
 document.addEventListener('DOMContentLoaded', function () {
-    // Function to update the date and time
+ 
     function updateDateTime() {
         var currentTime = new Date();
 
@@ -26,28 +26,26 @@ document.addEventListener('DOMContentLoaded', function () {
         var day = currentTime.getDate();
         var year = currentTime.getFullYear();
 
-        // Add leading zeros if needed
         month = (month < 10 ? "0" : "") + month;
         day = (day < 10 ? "0" : "") + day;
 
         var date = month + '/' + day + '/' + year;
 
-        // Format time in 12-hour clock with AM/PM (adjusting for NYC time)
+        
         var hours = currentTime.getUTCHours() - 5; // NYC is UTC-5
         var suffix = hours >= 12 ? 'am' : 'pm';
-        hours = (hours + 12) % 12 || 12; // Convert to 12-hour format
+        hours = (hours + 12) % 12 || 12; 
         var minutes = currentTime.getMinutes();
         hours = (hours < 10 ? "0" : "") + hours;
         minutes = (minutes < 10 ? "0" : "") + minutes;
         var time = hours + ':' + minutes + ' ' + suffix;
 
-        // Display the date and time in the specified span
+
         document.getElementById('span').innerHTML = date + ' ' + time + ' NYC';
     }
 
-    // Update the date and time every second
+ 
     setInterval(updateDateTime, 1000);
 
-    // Initial call to set the date and time when the page loads
     updateDateTime();
 });
