@@ -1,12 +1,11 @@
 <h1>Project Inspiration</h1>
-My passion for streetwear and skating led me to create a supreme landing page clone.I want to refine my web development skills by learning other brands' website layouts and implementing them 
-in my future projects.I encountered some challenges while searching for a website, as many didn't quite align with my preferences. To address this, I decided to explore the websites of clothing brands I 
-genuinely appreciate.While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
+My passion for streetwear and skating led me to create a supreme landing page clone. I want to refine my web development skills by learning other brands' website layouts and implementing them 
+in my future projects. I encountered some challenges while searching for a website, as many didn't quite align with my preferences. To address this, I decided to explore the websites of clothing brands I 
+genuinely appreciate. While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
-<a href="![image](https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/bf3c3734-c3b4-4113-8caa-137167dc10ed)
-"></a>
-
+<img src="![image](https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/f04889ae-ac1a-4da8-8e75-b56378b80429)
+">
 <br/>
 <h3>Components used:</h3>
 
@@ -31,7 +30,7 @@ syntax: Before learning that icons have their distinct elements, my icon represe
 
 Javascript: I created 3 different functions
 
-In JavaScript,I employed arrays to house various background URLs. To ensure a seamless website experience, I introduced an event listener that triggers a cohesive transaction upon the page's load. Utilizing the Date object, I captured the current time and date. For further customization, I manipulated the Document Object Model (DOM) by implementing an element with the ID "span" to display the real-time of the current time and date.
+In JavaScript, I employed arrays to house various background URLs. To ensure a seamless website experience, I introduced an event listener that triggers a cohesive transaction upon the page's load. Utilizing the Date object, I captured the current time and date. For further customization, I manipulated the Document Object Model (DOM) by implementing an element with the ID "span" to display the real-time of the current time and date.
 
 
 
