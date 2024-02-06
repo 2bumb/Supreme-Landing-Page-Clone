@@ -26,15 +26,6 @@ Inspect element and view page source :
 -The background had interchangeable images when the user entered or refreshed the page. To save time I used the view page source and inspect element to extract the background, Favicon, and content image. Although I wasn't able to extract the social media icon image, I was able to have a grasp of using Inspect element and view page sources in my project. 
 
 syntax: Before learning that icons have their distinct elements, my icon representations lacked proper structure
-Ex:
-<div class="icons">
-    <img class="social-icon" src="1654635.png" alt="Icon 1">
-    <img class="social-icon" src="1654601.png" alt="Icon 2">
-    <img class="social-icon" src="square-facebook (1).svg" alt="Icon 3">
-    <img class="social-icon" src="1654625.png" alt="Icon 4">
-    <img class="social-icon" src="weibo (1).svg" alt="Icon 5">
-    <img class="social-icon" src="app-store (1).svg" alt="Icon 6">
-</div>
 
 Javascript: I created 3 different functions
 
