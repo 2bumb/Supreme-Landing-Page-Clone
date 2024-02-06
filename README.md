@@ -21,7 +21,7 @@ The elements integrated into the website encompassed everything I needed to enha
 
 
 <br/>
-
+<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/e95c8eb5-a842-4926-9f91-4cdbac1c1518" width="100px">
 <h3>What I learn from making a supreme landing page:</h3>
 Inspect element and view page source : 
 
@@ -34,7 +34,10 @@ Javascript: I created 3 different functions
 In JavaScript, I employed arrays to house various background URLs. To ensure a seamless website experience, I introduced an event listener that triggers a cohesive transaction upon the page's load. Utilizing the Date object, I captured the current time and date. For further customization, I manipulated the Document Object Model (DOM) by implementing an element with the ID "span" to display the real-time of the current time and date.
 
 
-<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/e95c8eb5-a842-4926-9f91-4cdbac1c1518" width="100px">
+<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/a45144c5-15c0-414c-8234-596d4d38211d" width="100px">
+
+
+
 
 
 <h3>What I Need to improve:</h3>
