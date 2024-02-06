@@ -8,9 +8,9 @@ The elements integrated into the website encompassed everything I needed to enha
 
 <br/>
 <img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/96a
+d176d-ec97-4c25-a9df-c5450210278f" width="100px">
 <h3>Components used:</h3>
 
-d176d-ec97-4c25-a9df-c5450210278f" width="100px">
 -Hover: When hovering over menu options, the background turns red, and the social icons display a white hover effect, indicating that the menu is ready to be clicked.
 
 -Background Refresh: Refreshing the page introduces a new background, refreshing the visual ambiance
