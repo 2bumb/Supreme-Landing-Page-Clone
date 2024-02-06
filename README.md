@@ -6,11 +6,11 @@ in my future projects. I encountered some challenges while searching for a websi
 genuinely appreciate. While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
-
-
+<br/>
+<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/96a
 <h3>Components used:</h3>
 
-<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/96ad176d-ec97-4c25-a9df-c5450210278f" width="100px">
+d176d-ec97-4c25-a9df-c5450210278f" width="100px">
 -Hover: When hovering over menu options, the background turns red, and the social icons display a white hover effect, indicating that the menu is ready to be clicked.
 
 -Background Refresh: Refreshing the page introduces a new background, refreshing the visual ambiance
