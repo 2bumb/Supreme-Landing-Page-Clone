@@ -4,7 +4,8 @@ in my future projects. I encountered some challenges while searching for a websi
 genuinely appreciate. While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
-<img src="https://pin.it/3gPuBpdlA" alt="supreme">
+![Supreme GIF shared by amyjames on We Heart It](https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea) 
+
 <br/>
 <h3>Components used:</h3>
 
