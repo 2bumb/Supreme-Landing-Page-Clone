@@ -200,7 +200,6 @@ li:not(.supreme) {
 
 .menu ul li.contact-item {
   margin-left: 15px;
-  /* Adjust the margin as needed */
 }
 
 
@@ -227,17 +226,11 @@ li:not(.supreme) {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* Align the footer to the bottom */
   position: fixed;
-  /* Fixed position so it stays visible during scrolling */
   bottom: 0;
-  /* Stick to the bottom of the viewport */
   width: 100%;
-  /* Full width */
   background-color: transparent;
-  /* Set a background color as needed */
   padding: 10px;
-  /* Add padding for better visibility */
   margin-left: 43px;
   margin-bottom: 5px;
 
@@ -250,15 +243,11 @@ li:not(.supreme) {
   }
   .footer-item {
       position: relative;
-      /* Remove fixed positioning when the screen width is less than or equal to 768px */
-
-
   }
 }
 
 .footer-item ul.horizontal-list li {
   margin-right: -5px;
-  /* Adjust the margin as needed */
 }
 
 .menu {
@@ -266,9 +255,7 @@ li:not(.supreme) {
 }
 
 .container>*:not(.footer-item) {
-  /* Styles for elements inside .container except .footer-item */
   margin-bottom: 88px;
-  /* Adjust as needed */
 }
 
 
