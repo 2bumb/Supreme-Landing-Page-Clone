@@ -1,3 +1,4 @@
+<h1>Project Inspiration</h1>
 My passion for streetwear and skating led me to create a supreme landing page clone.I want to refine my web development skills by learning other brands' website layouts and implementing them 
 in my future projects.I encountered some challenges while searching for a website, as many didn't quite align with my preferences. To address this, I decided to explore the websites of clothing brands I 
 genuinely appreciate.While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
@@ -6,7 +7,7 @@ The elements integrated into the website encompassed everything I needed to enha
 
 
 
-Components used:
+<big>Components used:</big>
 
 -Hover: When hovering over menu options, the background turns red, and the social icons display a white hover effect, indicating that the menu is ready to be clicked.
 
@@ -20,7 +21,7 @@ Components used:
 
 
 
-What I learn from making a supreme landing page:
+<big>What I learn from making a supreme landing page:</big>
 Inspect element and view page source : 
 
 -The background had interchangeable images when the user entered or refreshed the page. To save time I used the view page source and inspect element to extract the background, Favicon, and content image. Although I wasn't able to extract the social media icon image, I was able to have a grasp of using Inspect element and view page sources in my project. 
@@ -35,7 +36,7 @@ In JavaScript,I employed arrays to house various background URLs. To ensure a se
 
 
 
-What I Need to improve:
+<big>What I Need to improve:</big>
 
 Positioning/responsive: The positioning of my website seems well-aligned on my screen. However, when viewed on a larger screen, the content appears to be positioned higher than intended.
 View page source/Inspect: Although I was able to extract the favicon, image, the background image, I had a difficult time looking for the social icons.
