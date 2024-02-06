@@ -1,10 +1,11 @@
 <h1>Project Inspiration</h1>
+
+<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea)" width="500">
 My passion for streetwear and skating led me to create a supreme landing page clone. I want to refine my web development skills by learning other brands' website layouts and implementing them 
 in my future projects. I encountered some challenges while searching for a website, as many didn't quite align with my preferences. To address this, I decided to explore the websites of clothing brands I 
 genuinely appreciate. While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
-<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea)" width="500">
 
 <br/>
 <h3>Components used:</h3>
