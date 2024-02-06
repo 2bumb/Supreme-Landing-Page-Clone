@@ -1,6 +1,4 @@
-/* .menu ul li.supreme img {
-  width: 180px;
-} */
+
 .top ul li.supreme img {
   width: 180px;
   padding-bottom: 15px;
@@ -38,17 +36,13 @@ li {
 
 .menu ul li:not(.supreme) a {
   text-decoration: none;
-  /* Remove underline */
   color: white;
-  /* Set font color to white */
 }
 
 .menu ul li:not(.supreme) a:hover {
   background-color: red;
   transition: transform 0.5s ease-in-out;
 }
-
-/* Your existing styles... */
 
 li:not(.supreme) {
   cursor: pointer;
@@ -69,18 +63,9 @@ li:not(.supreme) {
   }
 }
 
-/* .icons .social-icon img {
-width: 15px;
-height: auto;
-border-radius: 5px;
-margin: 0 3px;
-} */
-
 .icons {
   display: flex;
   justify-content: center;
-  /* Center the icons horizontally */
-  /* margin-left: 210px; */
 }
 
 .menu ul li {
@@ -90,12 +75,6 @@ margin: 0 3px;
   margin: 0;
   padding: 10px;
 }
-
-/* .icons .social-icon img[src*="weibo"] {
-width: 50px; 
-height: auto; 
-border-radius: 5px; 
-} */
 
 .news-item {
   text-indent: 0px;
@@ -134,21 +113,13 @@ border-radius: 5px;
 
 }
 
-/* .footer-item ul.horizontal-list li {
-margin-right: 10px;
-
-} */
-
-/* Media query for zoomed screens */
 @media (min--moz-device-pixel-ratio: 1.5),
 (-o-min-device-pixel-ratio: 3/2),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-device-pixel-ratio: 1) {
   .menu {
       overflow-y: auto;
-      /* Enable vertical scrolling for zoomed screens */
       max-height: 110vh;
-      /* Set a maximum height for the scroll bar */
   }
 }
 
