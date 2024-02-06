@@ -4,7 +4,7 @@ in my future projects. I encountered some challenges while searching for a websi
 genuinely appreciate. While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
-<img src="![Supreme GIF shared by amyjames on We Heart It](https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea)" width="100">
+<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea)" width="100">
 
 <br/>
 <h3>Components used:</h3>
@@ -36,7 +36,7 @@ In JavaScript, I employed arrays to house various background URLs. To ensure a s
 
 
 
-<b>What I Need to improve:</b>
+<h3>What I Need to improve:</h3>
 
 Positioning/responsive: The positioning of my website seems well-aligned on my screen. However, when viewed on a larger screen, the content appears to be positioned higher than intended.
 View page source/Inspect: Although I was able to extract the favicon, image, the background image, I had a difficult time looking for the social icons.
