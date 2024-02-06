@@ -7,7 +7,7 @@ The elements integrated into the website encompassed everything I needed to enha
 
 
 
-<b>Components used:</b>
+<h4>Components used:</4>
 
 -Hover: When hovering over menu options, the background turns red, and the social icons display a white hover effect, indicating that the menu is ready to be clicked.
 
