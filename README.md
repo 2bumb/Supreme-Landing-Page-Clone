@@ -4,9 +4,10 @@ in my future projects.I encountered some challenges while searching for a websit
 genuinely appreciate.While exploring websites for inspiration, I stumbled upon the Supreme landing page. It captivated me right from the entrance having a fading-out effect and a live clock. 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
+<a href="![image](https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/bf3c3734-c3b4-4113-8caa-137167dc10ed)
+"></a>
 
-
-
+<br/>
 <h3>Components used:</h3>
 
 -Hover: When hovering over menu options, the background turns red, and the social icons display a white hover effect, indicating that the menu is ready to be clicked.
@@ -19,9 +20,9 @@ The elements integrated into the website encompassed everything I needed to enha
 
 
 
+<br/>
 
-
-<b>What I learn from making a supreme landing page:</b>
+<h3>What I learn from making a supreme landing page:</h3>
 Inspect element and view page source : 
 
 -The background had interchangeable images when the user entered or refreshed the page. To save time I used the view page source and inspect element to extract the background, Favicon, and content image. Although I wasn't able to extract the social media icon image, I was able to have a grasp of using Inspect element and view page sources in my project. 
