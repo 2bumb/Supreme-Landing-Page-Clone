@@ -6,7 +6,7 @@ genuinely appreciate. While exploring websites for inspiration, I stumbled upon 
 The elements integrated into the website encompassed everything I needed to enhance my skills in HTML, CSS, and JavaScript, contributing to my growth as a proficient web developer.
 
 
-<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea)" width="300">
+<img src="https://github.com/2bumb/Supreme-Landing-Page-Clone/assets/133481864/ef8c1159-7603-4708-9c57-2ad58ad277ea)" width="100">
 <br/>
 <h3>Components used:</h3>
 
